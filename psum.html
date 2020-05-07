@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Final Year Project</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+  </head>
+
+  <body>
+
+    <!-- sidebar -->
+
+    <div class="ui sidebar inverted vertical menu sidebar-menu">
+
+      <a href="index.html" class="item">
+        <div>
+          <i class="icon crosshairs active"></i>
+          Individual Pothole
+        </div>
+      </a>
+
+      <a class="item" href="#">
+        <div>
+          <i class="icon street view"></i>
+          Pothole Summary
+        </div>
+      </a>
+
+      <a class="item">
+        <div>
+          <i class="icon eye"></i>
+          Map
+        </div>
+      </a>
+
+    </div>
+
+    <!-- sidebar -->
+
+
+    <!-- top nav -->
+
+    <nav class="ui top fixed inverted menu" style="background-color: #005eb8; position: sticky;margin:0px;">
+      <div class="center menu">
+
+        <span class="item">
+          Pothole Detection Repo - Final Year Project
+        </span>
+      </div>
+
+    </nav>
+
+    <!-- top nav -->
+
+
+    <!-- Main Screen -->
+
+      <div class="main-content">
+  
+            <!-- Main Screen top nav -->
+              <div class="ui top menu inverted tot" style="background-color: #003087; border-radius: 0px;width: 85%">
+                <span class="item">
+                  Pothole Summary
+                </span>
+            </div>
+
+
+            <!-- Main Screen top nav end -->
+
+            <!-- Page content -->
+            
+            <table class="ui selectable table" style="padding-top:40px; margin: 0px;">
+              <thead><a href="weekly_report_submitted.html">
+                <tr style="color: #005EB8;">
+                  <th class="center aligned" style="color: #005EB8">Cluster Count</th>
+                  <th class="center aligned" style="color: #005EB8">Max Intensity</th>
+                  <th class="center aligned" style="color: #005EB8">Binary Identification</th>
+                  <th class="center aligned" style="color: #005EB8">Location</th>
+                  <th class="center aligned" style="color: #005EB8">Map</th>
+                </tr>
+              </a></thead>
+              <tbody>
+                <tr><a href="weekly_report_submitted.html">
+                  <td class="center aligned">2</td>
+                  <td class="center aligned"><b>0.995072</b></td>
+                  <td class="center aligned">[1, 1, 1, 1, 1, 0, 0, 0]</td>
+                  <td class="center aligned">12.887538,77.597008</td>
+                  <td class="center aligned"><a href="https://bit.ly/2L92eLC"><button class="ui medium green button" style="color: white; ">locate</button></a></td>
+                </a></tr>
+                <tr>
+                  <td class="center aligned">2</td>
+                  <td class="center aligned"><b>0.993471</b></td>
+                  <td class="center aligned">[0, 1, 1, 0, 0, 0, 0, 0]</td>
+                  <td class="center aligned">12.887538,77.597008</td>
+                  <td class="center aligned"><a href="https://bit.ly/2L92eLC"><button class="ui medium green button" style="color: white; ">locate</button></a></td>
+                </tr>
+                <tr>
+                  <td class="center aligned">1</td>
+                  <td class="center aligned"><b>0.990498</b></td>
+                  <td class="center aligned">[0, 1, 1, 0, 0, 0, 0, 0]</td>
+                  <td class="center aligned">12.887538,77.597008</td>
+                  <td class="center aligned"><a href="https://bit.ly/2L92eLC"><button class="ui medium green button" style="color: white; ">locate</button></a></td>
+                </tr>
+                <tr>
+                  <td class="center aligned">1</td>
+                  <td class="center aligned"><b>0.997071</b></td>
+                  <td class="center aligned">[0, 1, 0, 0, 0, 0, 0, 0]</td>
+                  <td class="center aligned">12.887538,77.597008</td>
+                  <td class="center aligned"><a href="https://bit.ly/2L92eLC"><button class="ui medium green button" style="color: white; ">locate</button></a></td>
+                </tr>
+                <tr>
+                  <td class="center aligned">7</td>
+                  <td class="center aligned"><b>0.972361</b></td>
+                  <td class="center aligned">[1, 1, 1, 1, 1, 1, 1, 1]</td>
+                  <td class="center aligned">12.887538,77.597008</td>
+                  <td class="center aligned"><a href="https://bit.ly/2L92eLC"><button class="ui medium green button" style="color: white; ">locate</button></a></td>
+                </tr>
+                <tr>
+                  <td class="center aligned">6</td>
+                  <td class="center aligned"><b>0.995712</b></td>
+                  <td class="center aligned">[1, 1, 0, 0, 0, 0, 0, 0]</td>
+                  <td class="center aligned">12.887538,77.597008</td>
+                  <td class="center aligned"><a href="https://bit.ly/2L92eLC"><button class="ui medium green button" style="color: white; ">locate</button></a></td>
+                </tr>                                                   
+              </tbody>
+            </table>
+            <!-- Page content end -->
+        
+
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+      integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
